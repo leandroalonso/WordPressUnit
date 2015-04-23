@@ -4,7 +4,7 @@ WordPressUnit is a structure to integrate WordPress plugins with the testing fra
 
 ## Configuring
 
-First, you need to modify the `wp-config.php` line which defines de database name:
+First, you need to modify the `wp-config.php` line which defines the database name:
 
 ```php
 if (defined('TEST_ENVIRONMENT')) define('DB_NAME', 'test_environment');
@@ -33,6 +33,7 @@ This is all! :)
 ## Database Seeds
 
 You define all your database seed data in the file `seed.sql`, inside the folder `data` in the form of simple SQL queries.
+```
 
 ## Calling database from a test
 
@@ -75,7 +76,7 @@ You can uncomment this line in `bootstrap.php`:
 #define('SHORTINIT', true);
 ```
 
-This will make your test load less files and running faster. However, if you make use of WordPress functions (like `update_option` and others) your tests will break. So be carefully.
+This will make your test runs faster. However, if you make use of WordPress functions (like `update_option` and others) your tests will break. So be carefully.
 
 ## Links
 
