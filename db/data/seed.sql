@@ -1,0 +1,1 @@
+UPDATE `wp_options` SET `option_value` = 'http://localhost/wordpress' WHERE `option_name` = 'home' OR `option_name` = 'siteurl';
