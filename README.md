@@ -33,7 +33,6 @@ This is all! :)
 ## Database Seeds
 
 You define all your database seed data in the file `seed.sql`, inside the folder `data` in the form of simple SQL queries.
-```
 
 ## Calling database from a test
 
